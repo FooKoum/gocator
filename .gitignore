@@ -1,0 +1,12 @@
+VisionMeasurementSystem/.vs
+
+//x64下的Debug和Release
+/VisionMeasurementSystem/x64
+
+//编译过程中的x64
+/VisionMeasurementSystem/VisionMeasurementSystem/x64
+
+//依赖库
+/Dependence
+
+*.ply

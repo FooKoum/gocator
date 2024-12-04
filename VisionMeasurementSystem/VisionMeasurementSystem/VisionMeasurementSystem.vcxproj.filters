@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Form">
+      <UniqueIdentifier>{18c2e3b5-531d-4e7a-b9a2-77e039075292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form">
+      <UniqueIdentifier>{36858a76-ab92-43db-a5ec-19b1a58e6153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tool">
+      <UniqueIdentifier>{d6e18aeb-d74d-498e-b0f3-3a8b666bbd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HardWare">
+      <UniqueIdentifier>{214306e2-2e6b-427b-897e-987dacf70169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tool">
+      <UniqueIdentifier>{9267e562-e747-4f3b-9af6-bc9fdaab368c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HardWare">
+      <UniqueIdentifier>{95a6e8ad-55db-4df7-8873-ebefee2cfdac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Form\DialogButtonBottom.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Form\MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Form\FitPlane.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form\MainForm.cpp">
+      <Filter>Source Files\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="FitPlaneForm.cpp">
+      <Filter>Source Files\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="GocatorCameraHardware.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Form\MainForm.h">
+      <Filter>Header Files\Form</Filter>
+    </QtMoc>
+    <QtMoc Include="FitPlaneForm.h">
+      <Filter>Header Files\Form</Filter>
+    </QtMoc>
+    <QtMoc Include="GocatorCameraHardware.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
